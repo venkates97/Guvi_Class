@@ -1,0 +1,25 @@
+1.Write a blog on Difference between HTTP1.1 vs HTTP2
+- HTTP- Hyper Text Transfer Protocol
+- HTTP is used for Communication betwwen client and server, it work based on request and response
+
+HTTP 1.1
+--------
+- It Establish TCP connection between Client And Server, it like persistent connection there is no lost of connection
+- It is more relaiable to make payment connection
+
+HTTP 2
+------
+- It convert all messages into binary format
+- It have multiplexed, Which is one TCP make multiple request
+- it is used for Streaming
+
+-----------------------------------------------------------------------------------------------
+2. Write a blog about objects and its internal representation in Javascript
+- Object is referance data type like variable refer/point to value, it not store value but it point to th location
+- It an able to store data valve pairs combinations
+
+Syntax:
+var objectName = {
+                  name: "Venkat",
+                  favNum: 7
+                  }
